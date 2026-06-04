@@ -7,6 +7,7 @@
   [![Stars](https://img.shields.io/github/stars/hawkongz/concept-fable)](https://github.com/hawkongz/concept-fable)
 
   <p><strong>Language:</strong> <a href="README.md">English</a> | <a href="zh-CN/README.md">简体中文</a></p>
+  <p><strong>Created by</strong> <a href="https://github.com/hawkongz">@hawkongz</a></p>
 </div>
 
 ---
@@ -29,7 +30,7 @@
 
 **Amanda Askell** is Anthropic's in-house philosopher and head of the Character Alignment team. With a Ph.D. in philosophy from NYU, she is the principal author of Claude's Constitution — the 30,000-word document that shapes Claude's personality and moral compass.
 
-In April 2025, during a podcast interview, Askell shared a small technique that quickly went viral in the AI community:
+In April 2025, during a podcast interview, Askell shared a small technique that quickly spread through the AI community:
 
 > **"Ask Claude to write a fable that explains a concept — but never mention the concept's name."**
 
@@ -48,9 +49,9 @@ Askell herself uses this daily: *"When I'm bored, I ask Claude to tell me fables
 Askell's original idea is a brilliant starting point, but in practice, raw prompts hit several walls:
 
 - AI falls into formulaic narratives (traveler seeks wisdom, village epiphany, wise-mentor dialogues)
-- Imagery keeps colliding (rivers, clocks, mirrors, mountains, stars — the same tired motifs)
+- The same tired imagery keeps appearing (rivers, clocks, mirrors, mountains, stars — over and over)
 - Characters become puppets of the metaphor, sacrificing natural behavior for conceptual mapping
-- Metaphors sometimes end up more abstract than the concept itself (explaining design patterns through cultivation fantasy)
+- Metaphors sometimes end up more abstract than the concept itself (explaining design patterns through elaborate fantasy world-building)
 
 **Concept Fable** systematizes Askell's core idea into a **7-step workflow** with extensive anti-pattern detection and quality guardrails:
 
@@ -58,7 +59,7 @@ Askell's original idea is a brilliant starting point, but in practice, raw promp
 |:---|:---|
 | Never mention the concept name | Step 4: Three-act structure with precise reveal-timing control |
 | Let the story carry the meaning | Step 4: Causal-chain alignment check — the plot's "cause → effect → dilemma" must replicate the concept's operating mechanism |
-| — | Step 3: Auto-match story type to concept characteristics (rivalry → ancient fable / gradual process → daily life / emergence → nature or machinery) |
+| — | Step 3: Automatically matches story type to concept characteristics (rivalry → ancient fable / gradual process → daily life / emergence → nature or machinery) |
 | — | Step 3: Narrative tone matched to the concept's emotional flavor (cautionary / counterintuitive / trade-off / mechanistic) |
 | — | Step 6: 7-point self-check — character naturalness, metaphor accuracy, story independence, reveal timing, conciseness, concreteness, terminology closure |
 | — | Anti-pattern table: 6 common failure modes with specific fixes |
@@ -72,7 +73,7 @@ Askell's original idea is a brilliant starting point, but in practice, raw promp
 - **📚 7-Step Structured Workflow**: Understand concept → Confirm scope → Choose story type & tone → Write fable → Append explanation → Self-check → Output
 - **🎭 Automatic Story-Type Matching**: Selects the best fable genre based on the concept's core nature (rivalry, gradual emergence, surface-vs-reality contrast)
 - **🎯 Causal-Chain Alignment**: Goes beyond thematic similarity — the plot's cause-and-effect must mirror the concept's actual mechanism
-- **🧹 Anti-Pattern Guardrails**: Built-in avoidance of 6 failure modes: puppet characters, over-metaphoring, premature reveals, hollow stories, distorted concepts, and metaphors more complex than the target
+- **🧹 Anti-Pattern Guardrails**: Built-in avoidance of 6 failure modes: puppet characters, over-metaphoring, premature reveals, hollow stories, distorted concepts, and metaphors more abstract than the concept itself
 - **👵 The Grandma Test**: A hard requirement that every metaphor vehicle must use everyday, tangible experiences (cooking, driving, queuing) — no abstract fantasy settings that themselves need decoding
 - **✅ 7 Quality Self-Checks**: Systematic review after every story; maximum 2 rewrites; honestly report shortcomings if still not satisfied
 - **🔄 Feedback Handling Loop**: Inaccurate metaphor? Wrong story type? Too subtle or too obvious? Too long or too short? — each feedback type maps to a specific adjustment strategy

@@ -7,7 +7,7 @@ description: Use fables to gently illuminate any concept — the story builds fr
 
 ## Overview
 
-When a user wants to understand an abstract concept, don't throw a textbook definition at them. Instead, craft a carefully designed fable. The reader gets immersed, realizes what it's about only near the end, and then receives a professional explanation.
+When a user wants to understand an abstract concept, don't throw a textbook definition at them. Instead, craft a carefully designed fable. The reader becomes immersed, only realizing near the end what it's about — then receives a clear explanation.
 
 Core principle: **Let them *realize* through story, not *remember* through definition.**
 
@@ -66,7 +66,7 @@ Selection criteria:
 
 **Three-act structure:**
 
-1. **Setup (60%–70%)**: Introduce characters and an everyday scene, seemingly unrelated to the concept. The plot unfolds naturally, quietly planting "spiritual resemblances" to the concept. Let the reader sink into the story without sensing that it's a lesson.
+1. **Setup (60%–70%)**: Introduce characters and an everyday scene, seemingly unrelated to the concept. The plot unfolds naturally, quietly planting echoes of the concept. Let the reader sink into the story without sensing that it's a lesson.
 2. **Conflict emerges (20%–30%)**: A twist, conflict, or dilemma appears that precisely maps to the core problem the concept addresses. Attentive readers may begin to suspect.
 3. **Reveal (10%)**: Close with "This is the concept we're exploring today — **[concept name]**." One sentence to connect the dots, then stop.
 
@@ -75,8 +75,8 @@ Selection criteria:
 - Do NOT hint at the concept name too early — suspense is the core appeal.
 - Characters must behave naturally and credibly; never twist their actions just to serve the metaphor.
 - Metaphor points: 3–5 total (≥2 must map to core elements). Don't map every detail.
-- The story must be engaging *first*; the educational payload seeps in naturally.
-- The story's causal chain must align with the concept's operating mechanism: it's not enough to graze the "theme" — the plot's "cause → effect → dilemma" must replicate the concept's core process. After writing, ask yourself: if I translated the plot diagram back into technical terms, would it reconstruct the concept's key steps? If not → the mapping isn't tight enough.
+- The story must be engaging *first*; the lesson seeps in naturally.
+- The story's causal chain must align with the concept's operating mechanism: it's not enough to merely touch on the "theme" — the plot's "cause → effect → dilemma" must replicate the concept's core process. After writing, ask yourself: if I translated the plot diagram back into technical terms, would it reconstruct the concept's key steps? If not → the mapping isn't tight enough.
 
 **Metaphor Concreteness Principle (hard requirement):**
 
@@ -132,7 +132,7 @@ After writing the story, review against each item. **Rewrite at most 2 times.** 
 
 1. **Character naturalness**: If you removed the concept, would the characters' actions still make sense within the story's logic? If a character does something implausible just to serve the metaphor → rewrite.
 2. **Metaphor accuracy**: Does the story's core conflict map to the concept's **core tension** (not a peripheral feature)? Does the plot's causal chain align with the concept's operating mechanism (not just graze the theme)? If a reader understands the story but not the concept → the metaphor missed.
-3. **Story independence**: Setting the concept aside, is this story engaging and readable on its own? If it reads like "a textbook wearing a story costume" → rewrite.
+3. **Story independence**: Setting the concept aside, is this story engaging and readable on its own? If it reads like "a textbook disguised as a story" → rewrite.
 4. **Reveal timing**: Does the concept name only appear after the story's natural conclusion? If it shows up at the beginning or mid-story → too early.
 5. **Conciseness**: Metaphor points ≤5? All core elements have a corresponding metaphor? Any redundant plot points you can cut?
 6. **Concreteness**: Does the metaphor vehicle pass the Grandma Test? If the vehicle itself requires explanation (magic systems, fantasy world-building, sci-fi settings) → swap for everyday scenes.
@@ -181,7 +181,7 @@ These are common failure modes. Actively avoid them while writing:
 | **Over-metaphoring** | Every detail maps to the concept; the story reads like a cipher | Becomes a textbook in disguise, loses all charm | Only map the core elements; let the remaining details serve the story's vividness |
 | **Premature reveal** | "This is like concept X" said at the beginning or mid-story | Kills the suspense; the reader stops "realizing" on their own | Hold back — let the story finish itself. The reveal belongs only at the end. |
 | **Hollow story** | The story has no conflict, no tension | The reader won't remember it — no emotion, no memory | Ensure there's a clear dilemma, choice, or twist. Make the reader care about the characters. |
-| **Concept distortion** | Twisting the concept's core meaning to make a better story | The most fatal error — the reader learns a *wrong* understanding | After writing, self-check: if a reader only read the story and not the explanation, would their understanding be correct? |
+| **Concept distortion** | Twisting the concept's core meaning to make a better story | The most serious error — the reader learns a *wrong* understanding | After writing, self-check: if a reader only read the story and not the explanation, would their understanding be correct? |
 | **Metaphor more abstract than concept** | Using magic runes to explain leaky abstractions, or fantasy cultivation systems to explain design patterns | The reader has to decode the metaphor itself first — the barrier isn't lowered, it's raised | Use the Grandma Test: swap the vehicle for everyday scenes (a universal remote, a translation app glitch) — ensure the vehicle itself requires no explanation |
 
 ## Fallback Strategies

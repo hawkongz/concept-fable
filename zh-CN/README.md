@@ -7,6 +7,7 @@
   [![Stars](https://img.shields.io/github/stars/hawkongz/concept-fable)](https://github.com/hawkongz/concept-fable)
 
   <p><strong>Language:</strong> <a href="../README.md">English</a> | <a href="README.md">简体中文</a></p>
+  <p><strong>作者</strong> <a href="https://github.com/hawkongz">@hawkongz</a></p>
 </div>
 
 ---
@@ -35,7 +36,7 @@
 
 她的核心洞见很简单，却极为深刻：
 
-> *"故事是人类最根本的学习载体。传统学习方式是直接啃概念和定义，而寓言故事走的是完全相反的路——你先沉浸在一个引人入胜的故事里，读到结尾才恍然大悟：原来讲的是这个。此时概念的核心理念你早已在故事中'悟'到了。"*
+> *"故事是人类最根本的学习载体。传统学习方式是直接啃概念和定义，而寓言故事走的是完全相反的路——你先沉浸在一个引人入胜的故事里，读到结尾才恍然大悟：原来讲的是这个。此时概念的核心本质你早已在故事中'悟'到了。"*
 
 Askell 自己这样用："我无聊时就让 Claude 讲寓言故事，后来脑子里装了好多小故事，每个故事对应一个学科概念。有时候我已经记不住概念的学名了，但那个故事还记得。"
 
