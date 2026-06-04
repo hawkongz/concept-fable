@@ -29,7 +29,7 @@
 
 **Amanda Askell** is Anthropic's in-house philosopher and head of the Character Alignment team. With a Ph.D. in philosophy from NYU, she is the principal author of Claude's Constitution — the 30,000-word document that shapes Claude's personality and moral compass.
 
-In April 2025, during a podcast interview, Askell shared a small technique that quickly spread through the AI community:
+In April 2026, during a podcast interview, Askell shared a small technique that quickly spread through the AI community:
 
 > **"Ask Claude to write a fable that explains a concept — but never mention the concept's name."**
 
