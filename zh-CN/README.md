@@ -7,7 +7,6 @@
   [![Stars](https://img.shields.io/github/stars/hawkongz/concept-fable)](https://github.com/hawkongz/concept-fable)
 
   <p><strong>Language:</strong> <a href="../README.md">English</a> | <a href="README.md">简体中文</a></p>
-  <p><strong>作者</strong> <a href="https://github.com/hawkongz">@hawkongz</a> 与 Claude 共同创作</p>
 </div>
 
 ---
