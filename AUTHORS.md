@@ -4,7 +4,13 @@
 
 **hawkongz** — [@hawkongz](https://github.com/hawkongz)
 
-Concept Fable was created by hawkongz, inspired by Amanda Askell's fable-based concept explanation technique shared in her April 2025 interview. The skill expands Askell's original prompt into a structured 7-step workflow with anti-pattern detection, quality self-checks, and cross-cultural metaphor design.
+## Contributors
+
+**Claude** (Anthropic) — Co-author and implementation partner via Claude Code.
+
+---
+
+Concept Fable was built through human-AI collaboration: hawkongz designed the 7-step workflow, anti-pattern catalog, and quality criteria inspired by Amanda Askell's original insight, while Claude contributed the structured methodology, bilingual documentation, and quality guardrails (the Grandma Test, causal-chain alignment checks, story-type matching system).
 
 ## Inspiration
 
