@@ -52,15 +52,15 @@ Askell's original idea is a brilliant starting point, but in practice, raw promp
 - Characters become puppets of the metaphor, sacrificing natural behavior for conceptual mapping
 - Metaphors sometimes end up more abstract than the concept itself (explaining design patterns through elaborate fantasy world-building)
 
-**Concept Fable** systematizes Askell's core idea into a **7-step workflow** with extensive anti-pattern detection and quality guardrails:
+**Concept Fable** systematizes Askell's core idea into an **8-step workflow** with extensive anti-pattern detection and quality guardrails:
 
 | Askell's Original Idea | This Skill's Systematic Expansion |
 |:---|:---|
-| Never mention the concept name | Step 4: Three-act structure with precise reveal-timing control |
-| Let the story carry the meaning | Step 4: Causal-chain alignment check — the plot's "cause → effect → dilemma" must replicate the concept's operating mechanism |
-| — | Step 3: Automatically matches story type to concept characteristics (rivalry → ancient fable / gradual process → daily life / emergence → nature or machinery) |
+| Never mention the concept name | Step 5: Three-act structure with precise reveal-timing control |
+| Let the story carry the meaning | Step 4: Causal-chain alignment check — verify metaphor points map to every link of the causal chain before writing; Step 5: the plot's "cause → effect → dilemma" must replicate the concept's operating mechanism |
+| — | Step 3: Automatically matches story type to concept characteristics (rivalry → ancient fable / gradual → daily life / emergence → nature / surface vs. reality → dialogue / tool/solution → before-and-after contrast) |
 | — | Step 3: Narrative tone matched to the concept's emotional flavor (cautionary / counterintuitive / trade-off / mechanistic) |
-| — | Step 6: 7-point self-check — character naturalness, metaphor accuracy, story independence, reveal timing, conciseness, concreteness, terminology closure |
+| — | Step 7: 7-point self-check — character believability, metaphor accuracy, story independence, reveal timing, conciseness, concreteness, no unexplained jargon |
 | — | Anti-pattern table: 6 common failure modes with specific fixes |
 | — | "Grandma Test" for metaphor concreteness: the vehicle must be something perceptible in daily life |
 | — | Fallback strategies: 4 alternatives when a concept genuinely doesn't fit the fable format |
@@ -69,9 +69,10 @@ Askell's original idea is a brilliant starting point, but in practice, raw promp
 
 ## Features
 
-- **📚 7-Step Structured Workflow**: Understand concept → Confirm scope → Choose story type & tone → Write fable → Append explanation → Self-check → Output
-- **🎭 Automatic Story-Type Matching**: Selects the best fable genre based on the concept's core nature (rivalry, gradual emergence, surface-vs-reality contrast)
+- **📚 8-Step Structured Workflow**: Understand concept → Confirm scope → Choose story type & tone → Validate metaphor mapping → Write fable → Append explanation → Self-check → Output
+- **🎭 Automatic Story-Type Matching**: Selects the best fable genre based on the concept's core nature (rivalry, gradual emergence, surface-vs-reality contrast, tool/solution)
 - **🎯 Causal-Chain Alignment**: Goes beyond thematic similarity — the plot's cause-and-effect must mirror the concept's actual mechanism
+- **🔀 Before-and-After Contrast**: For concepts that exist to solve a problem (e.g., Node.js, caching), the story shows both "life without it" and "life with it," letting the value emerge through the difference
 - **🧹 Anti-Pattern Guardrails**: Built-in avoidance of 6 failure modes: puppet characters, over-metaphoring, premature reveals, hollow stories, distorted concepts, and metaphors more abstract than the concept itself
 - **👵 The Grandma Test**: A hard requirement that every metaphor vehicle must use everyday, tangible experiences (cooking, driving, queuing) — no abstract fantasy settings that themselves need decoding
 - **✅ 7 Quality Self-Checks**: Systematic review after every story; maximum 2 rewrites; honestly report shortcomings if still not satisfied
