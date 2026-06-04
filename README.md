@@ -86,7 +86,7 @@ Askell's original idea is a brilliant starting point, but in practice, raw promp
 
 **Step 1 — Install the skill**
 
-This skill requires only a single `SKILL.md` file to run.
+This skill requires only a single `SKILL.md` file to run (English version).
 
 macOS / Linux:
 
@@ -101,6 +101,8 @@ Windows (PowerShell):
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\concept-fable"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/hawkongz/concept-fable/main/SKILL.md" -OutFile "$env:USERPROFILE\.claude\skills\concept-fable\SKILL.md"
 ```
+
+> **中文用户**：请下载中文版 —— 把上面 URL 中的 `main/SKILL.md` 换成 `main/zh-CN/SKILL.md`。
 
 **Step 2 — Done.**
 

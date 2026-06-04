@@ -86,20 +86,20 @@ Askell 的原版思路是一个绝妙的起点，但实际使用中会遇到几�
 
 **Step 1 — 安装 Skill**
 
-本 Skill 仅需一个 `SKILL.md` 文件即可运行。
+本 Skill 仅需一个 `SKILL.md` 文件即可运行（中文版）。
 
 macOS / Linux：
 
 ```bash
 mkdir -p ~/.claude/skills/concept-fable
-curl -o ~/.claude/skills/concept-fable/SKILL.md https://raw.githubusercontent.com/hawkongz/concept-fable/main/SKILL.md
+curl -o ~/.claude/skills/concept-fable/SKILL.md https://raw.githubusercontent.com/hawkongz/concept-fable/main/zh-CN/SKILL.md
 ```
 
 Windows（PowerShell）：
 
 ```powershell
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\concept-fable"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/hawkongz/concept-fable/main/SKILL.md" -OutFile "$env:USERPROFILE\.claude\skills\concept-fable\SKILL.md"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/hawkongz/concept-fable/main/zh-CN/SKILL.md" -OutFile "$env:USERPROFILE\.claude\skills\concept-fable\SKILL.md"
 ```
 
 **Step 2 — 完成**

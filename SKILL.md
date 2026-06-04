@@ -1,214 +1,213 @@
 ---
 name: concept-fable
-description: 用寓言故事委婉诠释任何概念——故事从头铺垫，临近结尾才揭晓专业名词，再附上释义。当用户想理解某个概念、术语或原理时主动触发，尤其是说「用故事解释」「讲个寓言」「打个比方」「通俗理解」时。即使用户只问「XXX是什么意思」，也主动提议用故事讲解。
+description: Use fables to gently illuminate any concept — the story builds from the ground up, revealing the technical term only near the end, followed by a clear explanation. Trigger when users want to understand a concept, term, or principle, especially when they say "explain with a story," "tell me a fable," "give me an analogy," or "help me understand intuitively." Even if the user just asks "what is X?", proactively offer to explain through a story.
 ---
 
-# 寓言故事概念解释器
+# Concept Fable Explainer
 
 ## Overview
 
-当用户想理解一个抽象概念时，不直接抛出教科书定义，而是创作一篇精心设计的寓言故事。读者沉浸其中，在临近结尾时才恍然大悟，然后附上专业释义。
+When a user wants to understand an abstract concept, don't throw a textbook definition at them. Instead, craft a carefully designed fable. The reader gets immersed, realizes what it's about only near the end, and then receives a professional explanation.
 
-核心原则：**用故事让人"悟到"，而不是用定义让人"记住"。**
+Core principle: **Let them *realize* through story, not *remember* through definition.**
 
 ## Workflow
 
-按以下 7 步执行：
+Follow these 7 steps:
 
-### Step 1 — 理解概念
+### Step 1 — Understand the Concept
 
-1. 如果概念已充分掌握，直接进入下一步
-2. 如果概念有模糊之处，搜索或查阅权威资料
-3. 提炼出 **2-3 个核心要素**：关键矛盾、核心机制、为什么重要
+1. If you fully grasp the concept, proceed directly to the next step.
+2. If anything is unclear, search or consult authoritative sources.
+3. Distill **2–3 core elements**: the central tension, the key mechanism, and why it matters.
 
-> **核心要素与隐喻点的关系**：每个核心要素必须有一个对应的隐喻点来映射它（这是底线）。额外的隐喻点（最多 5 个）用于丰富故事细节，但不能喧宾夺主。简单来说：**核心要素 = 必须映射的（≥2 个），隐喻点总量 ≤5 个**。
+> **Relationship between core elements and metaphor points**: Every core element must have a corresponding metaphor point that maps to it (this is the minimum). Additional metaphor points (up to 5 total) enrich the story's details, but must not overshadow the core mapping. In short: **core elements = must-map (≥2), total metaphor points ≤5**.
 
-### Step 2 — 确认范围与场景（按需）
+### Step 2 — Confirm Scope & Scene (As Needed)
 
-以下情况需向用户确认：
-- 概念有多个分支或流派（如「一致性」在不同语境含义不同）
-- 概念在不同领域有不同解读
-- 用户表述模糊，可能有多种理解
+Check with the user when:
+- The concept has multiple branches or schools of thought (e.g., "consistency" means different things in different contexts)
+- The concept has different interpretations across domains
+- The user's phrasing is vague and could mean several things
 
-确认概念理解：「这个概念我理解为 ______，核心要点是 ______，对吗？」
+Confirm understanding: "So this concept is essentially about ______, and the key insight is ______ — is that right?"
 
-**确认场景偏好**——先判断概念本身，再决定是否问用户：
+**Confirm scene preference** — assess the concept first, then decide whether to ask:
 
-- **日常场景就能精准映射核心流程** → 不打扰用户，直接用日常场景
-- **概念抽象、离日常经验较远** → 问一句：「这个概念比较抽象，你平时做什么工作、学什么专业？我挑一个你熟悉的场景来讲，更容易懂。」
-- **概念虽日常，但用户的专业能提供更精准的隐喻** → 同上，简短问一句
+- **Everyday scenes can precisely map the core process** → Don't interrupt; use everyday scenes directly.
+- **The concept is abstract and far from daily experience** → Ask briefly: "This concept is fairly abstract — what kind of work do you do or what did you study? I'll pick a scene you're familiar with, which makes it easier to grasp."
+- **The concept is everyday, but the user's profession could provide a sharper metaphor** → Same as above, ask briefly.
 
-### Step 3 — 选择故事类型与语气
+### Step 3 — Choose Story Type & Tone
 
-**故事类型**——根据概念的核心特征选择：
+**Story type** — Choose based on the concept's core characteristics:
 
-- **概念涉及两方博弈/冲突** → 古代寓言（窄桥对峙、两匠比试）
-- **概念是渐进累积的过程** → 日常生活（赊账盖房、债务滚雪球）
-- **概念是系统行为/涌现现象** → 自然现象或机械装置
-- **概念的核心是"表面 vs 实际"的反差** → 角色对话或说明书场景
+- **Concept involves two-party standoff / conflict** → Classic parable or fable (Aesop-style — two travelers on a narrow bridge, rival craftsmen, sibling rivalry)
+- **Concept is a gradual, cumulative process** → Everyday life (renovation spiraling over budget, snowballing debt, a garden overgrown)
+- **Concept is systemic behavior / emergent phenomenon** → Natural phenomena or mechanical devices (a flock of birds turning together, a thermostat hunting for balance)
+- **Concept's core is a "surface vs. reality" contrast** → Dialogue-driven or instruction-manual format (someone reading a recipe vs. actually cooking, a tourist map vs. a local's directions)
 
-选择标准：
-- 故事的「冲突」或「转折」必须精准映射概念的核心矛盾
-- 2-3 个角色，一个核心情节线
+Selection criteria:
+- The story's "conflict" or "twist" must precisely map to the concept's core tension.
+- 2–3 characters, one core plotline.
 
-**叙事语气**——根据概念的情感色彩选择：
+**Narrative tone** — Choose based on the concept's emotional flavor:
 
-| 概念的情感色彩 | 推荐语气 | 示例场景 |
-|-------------|---------|---------|
-| 告诫/警示（如技术债务、死锁） | 沉稳、略带惋惜 | 说书人风格，娓娓道来 |
-| 揭示/反直觉（如抽象泄漏、幸存者偏差） | 轻快、有反转感 | 像在讲一个"你猜怎么着"的故事 |
-| 权衡/两难（如 CAP 定理） | 中立、不偏袒 | 平实叙述，让读者自己判断 |
-| 机制/原理（如依赖注入） | 日常、接地气 | 生活化口吻，拉近距离 |
+| Emotional Flavor | Recommended Tone | Example Scenario |
+|------------------|------------------|-----------------|
+| Cautionary / warning (e.g., technical debt, deadlock) | Measured, slightly rueful | Campfire storyteller style, unhurried |
+| Revealing / counterintuitive (e.g., leaky abstraction, survivorship bias) | Light, with a twist | Like telling a "guess what happened" story |
+| Trade-off / dilemma (e.g., CAP theorem) | Neutral, impartial | Plain narration; let the reader decide |
+| Mechanism / principle (e.g., dependency injection) | Everyday, down-to-earth | Casual, conversational — like explaining over coffee |
 
-> **简单概念豁免**：对于「什么是变量」「什么是循环」等基础概念，默认用日常接地气语气，不必逐条对照上表。表格主要用于需要情感引导的复杂/抽象概念。
+> **Simple concept exemption**: For foundational concepts like "what is a variable" or "what is a loop," default to an everyday conversational tone — no need to match every row in the table above. The table is primarily for complex or abstract concepts that need emotional guidance.
 
-### Step 4 — 写故事
+### Step 4 — Write the Story
 
-**三段式结构：**
+**Three-act structure:**
 
-1. **铺垫（60%-70%）**：引入角色和日常场景，看似与概念无关。情节自然展开，悄然埋入与概念的「神似」之处。让读者沉浸于故事，察觉不到这是在上课。
-2. **矛盾显现（20%-30%）**：故事出现转折、冲突或困境，精准映射概念要解决的核心问题。敏锐的读者开始有所察觉。
-3. **揭晓（10%）**：用「这就是我们今天要讲的概念——【概念名】」收束，一句话点破对应关系，点到为止。
+1. **Setup (60%–70%)**: Introduce characters and an everyday scene, seemingly unrelated to the concept. The plot unfolds naturally, quietly planting "spiritual resemblances" to the concept. Let the reader sink into the story without sensing that it's a lesson.
+2. **Conflict emerges (20%–30%)**: A twist, conflict, or dilemma appears that precisely maps to the core problem the concept addresses. Attentive readers may begin to suspect.
+3. **Reveal (10%)**: Close with "This is the concept we're exploring today — **[concept name]**." One sentence to connect the dots, then stop.
 
-**写作原则：**
-- 全部简体中文，故事 300-800 字
-- 不要过早暗示概念名——悬念是核心魅力
-- 角色行为自然合理，不能为映射概念而扭曲人物
-- 隐喻点控制在 3-5 个（其中核心要素对应的 ≥2 个），不要每个细节都对应
-- 故事首先要有趣，教育性自然渗透
-- 故事的因果链必须贴合概念的运作机制：不是只触碰「主题」，而是让情节的「因→果→困境」自然复现概念的核心流程。写完问自己：把故事的情节图翻译回技术术语，能不能还原出概念的关键步骤？不能 → 没贴住
+**Writing principles:**
+- All in English, story 200–500 words.
+- Do NOT hint at the concept name too early — suspense is the core appeal.
+- Characters must behave naturally and credibly; never twist their actions just to serve the metaphor.
+- Metaphor points: 3–5 total (≥2 must map to core elements). Don't map every detail.
+- The story must be engaging *first*; the educational payload seeps in naturally.
+- The story's causal chain must align with the concept's operating mechanism: it's not enough to graze the "theme" — the plot's "cause → effect → dilemma" must replicate the concept's core process. After writing, ask yourself: if I translated the plot diagram back into technical terms, would it reconstruct the concept's key steps? If not → the mapping isn't tight enough.
 
-**隐喻具象化原则（硬性要求）：**
+**Metaphor Concreteness Principle (hard requirement):**
 
-隐喻载体必须是读者日常生活能直接感知的事物，遵守「奶奶测试」：
+The metaphor vehicle must be something the reader can directly perceive in daily life. It must pass the **Grandma Test**:
 
-> 你的隐喻载体，你奶奶能不能一句话听懂是什么？
-> 能 → 可以用　　不能 → 换一个
+> Can your grandma understand what the metaphor vehicle *is*, in one sentence?
+> Yes → use it. No → swap it out.
 
-- ✅ 做饭、开车、搬家、排队、取快递、修水管、超市结账……
-- ❌ 魔法符文、修仙体系、量子纠缠、第四维度、赛博空间……（读者需要先解码隐喻本身，理解门槛不降反升）
-- 核心判断：隐喻的目的是降低理解门槛，如果隐喻本身比概念更难懂，就违背了初衷
+- ✅ Cooking, driving, moving house, waiting in line, picking up a package, fixing a leaky pipe, checking out at the grocery store, assembling IKEA furniture, untangling headphones...
+- ❌ Magic runes, cultivation systems, quantum entanglement, fourth-dimensional space, cyber-realms... (the reader has to decode the metaphor itself, defeating the purpose)
+- Core judgment: the purpose of a metaphor is to *lower* the barrier to understanding. If the metaphor is harder to understand than the concept, you've violated the premise.
 
-### Step 5 — 附专业释义
+### Step 5 — Append Professional Explanation
 
 ```
 ---
 
-## 专业释义
+## Explanation
 
-### 【概念名】
+### [Concept Name]
 
-**一句话定义：** [精准概括]
+**One-sentence definition:** [Concise summary]
 
-**为什么这个概念重要：** [1-2 句说明实际意义]
+**Why this concept matters:** [1–2 sentences on practical significance]
 
-**核心要点：**
-1. [是什么]
-2. [为什么产生 / 为什么会这样]
-3. [如何应对 / 如何应用]
+**Key points:**
+1. [What it is]
+2. [Why it occurs / why it works this way]
+3. [How to handle / apply it]
 
-**故事中的对应：**
-| 故事元素 | 概念对应 |
-|----------|---------|
-| [角色/事件] | [概念要素] |
-| [转折点] | [核心机制] |
+**Story-to-concept mapping:**
+| Story Element | Concept Mapping |
+|---------------|-----------------|
+| [Character/Event] | [Concept element] |
+| [Turning point] | [Core mechanism] |
 
-**前置知识：** [如果释义中用了读者可能不熟悉的术语（如用「带宽」解释网络延迟时，顺带说明带宽是什么），在此处用 1-2 句简要说明。没有则省略此行。]
+**Prerequisite knowledge:** [If the explanation uses terms the reader might be unfamiliar with (e.g., using "bandwidth" to explain network latency, briefly explain bandwidth here in 1–2 sentences). Omit this line if not needed.]
 
-**延伸思考：** [1-2 句引导思考]
+**Further thinking:** [1–2 sentences to spark reflection]
 
-**故事续写（可选）：** [如果概念有天然紧耦合的关联概念（如 npm→依赖冲突、死锁→死锁预防），释义结束后用 2-3 句续写故事，引出关联概念。只给一句话定义，不展开完整释义。结尾问「需要展开讲吗？」。没有紧耦合关联概念则跳过。]
+**Story continuation (optional):** [If the concept has a naturally tightly-coupled related concept (e.g., deadlock → deadlock prevention, npm → dependency hell), continue the story in 2–3 sentences to introduce the related concept. Give only a one-sentence definition, no full explanation template. End with "Want me to expand on this one?" Skip if no tightly-coupled related concept exists.]
 ```
 
-续写约束：
-- 复用原故事的角色和场景，可引入新角色推进情节，但不展开其背景或动机
-- 关联概念只给一句话定义，不附带完整释义模板
-- 紧耦合指：问题→解决方案、工具→常见坑、现象→相邻现象
-- 用户要求展开 → 回到 Step 1 用完整流程单独讲关联概念
+Continuation constraints:
+- Reuse the original story's characters and setting; you may introduce a new character to advance the plot, but don't elaborate on their background or motivations.
+- Related concept gets only a one-sentence definition, no full explanation template.
+- "Tightly coupled" means: problem → solution, tool → common pitfall, phenomenon → adjacent phenomenon.
+- If the user wants expansion → return to Step 1 and run the full workflow for the related concept separately.
 
-### Step 6 — 自检
+### Step 6 — Self-Check
 
-故事写完后，逐条审视。**最多重写 2 次**，仍不通过则输出当前最佳版本，并诚实告知用户哪里不够满意：
+After writing the story, review against each item. **Rewrite at most 2 times.** If it still doesn't pass, output the current best version and honestly tell the user what you're not satisfied with:
 
-1. **角色自然度**：如果去掉概念，角色的行为在故事逻辑里是否合理？如果角色为了隐喻做出了不合常理的举动 → 重写
-2. **隐喻准确性**：故事的核心冲突是否映射了概念的**核心矛盾**（而非边缘特性）？情节的因果链是否贴合概念的运作机制（而非只触碰主题）？如果读者理解了故事却没理解概念 → 隐喻跑偏
-3. **故事独立性**：抛开概念，这篇故事本身是否有趣、可读？如果只是一篇「披着故事皮的说明书」 → 重写
-4. **揭晓时机**：概念名是否在故事自然结束后才出现？如果在开头或故事中途就提到了 → 太早了
-5. **简洁度**：隐喻点是否 ≤5 个？核心要素是否都有对应的隐喻？有没有可以删掉的冗余情节？
-6. **具象化**：隐喻载体是否通过了「奶奶测试」？如果载体本身需要解释（魔法、修仙、科幻设定）→ 换成日常场景
-7. **术语闭环**：专业释义中是否引入了读者可能不熟悉的新术语？如果有 → 在释义末尾用 1-2 句简要说明
+1. **Character naturalness**: If you removed the concept, would the characters' actions still make sense within the story's logic? If a character does something implausible just to serve the metaphor → rewrite.
+2. **Metaphor accuracy**: Does the story's core conflict map to the concept's **core tension** (not a peripheral feature)? Does the plot's causal chain align with the concept's operating mechanism (not just graze the theme)? If a reader understands the story but not the concept → the metaphor missed.
+3. **Story independence**: Setting the concept aside, is this story engaging and readable on its own? If it reads like "a textbook wearing a story costume" → rewrite.
+4. **Reveal timing**: Does the concept name only appear after the story's natural conclusion? If it shows up at the beginning or mid-story → too early.
+5. **Conciseness**: Metaphor points ≤5? All core elements have a corresponding metaphor? Any redundant plot points you can cut?
+6. **Concreteness**: Does the metaphor vehicle pass the Grandma Test? If the vehicle itself requires explanation (magic systems, fantasy world-building, sci-fi settings) → swap for everyday scenes.
+7. **Terminology closure**: Does the explanation introduce new terms the reader might not know? If so → briefly explain them in 1–2 sentences at the end of the explanation.
 
-### Step 7 — 输出
+### Step 7 — Output
 
-- 默认直接在对话中输出故事和释义
-- 输出结束后，简短问一句：「讲清楚了吗？有不明白的地方、或者想换个场景讲，告诉我。」
-- 如果用户要求保存，写为 `概念寓言-{概念名}.md`
-
----
-
-## 后置处理（输出后触发）
-
-### 处理用户反馈
-
-以下逻辑在用户对输出给出反馈后触发，不是工作流步骤：
-
-1. **「隐喻不太准确」** → 回到 Step 1，重新确认概念的核心矛盾是否理解正确，调整隐喻映射
-2. **「这个故事不太好/换一个」** → 回到 Step 3，换一种故事类型和语气重新创作
-3. **「太隐晦/太直白」** → 调整三段式结构中揭晓时机的早晚，或增减铺垫篇幅
-4. **「故事太长/太短」** → 调整铺垫部分的细节量，不改变核心结构
+- By default, output the story and explanation directly in the conversation.
+- After output, ask briefly: "Did that make sense? If something's unclear, or you'd like a different scenario, let me know."
+- If the user asks to save, write to `concept-fable-{concept-name}.md`.
 
 ---
 
-## 前置判断（写作前触发）
+## Post-Processing (Triggers After Output)
 
-### 处理多概念请求
+### Handling User Feedback
 
-以下逻辑在开始写作前判断，决定故事的策略：
+The following logic triggers after the user gives feedback on the output, not as part of the workflow steps:
 
-- **概念之间存在对比关系** → 可以用一个故事串两个概念（如两个角色分别代表概念 A 和 B，通过不同结局体现差异），但仍然在结尾分别揭晓
-- **概念之间无直接关联** → 建议分开讲两个故事，各 200-400 字
-- **不确定时** → 先向用户确认：「这两个概念我用一个对比故事来讲，还是分开讲？」
-
----
-
-## 反模式：避免这些写法
-
-以下是常见失败模式，创作时主动避让：
-
-| 反模式 | 表现 | 为什么失败 | 正确做法 |
-|--------|------|-----------|---------|
-| **角色傀儡化** | 角色做出违背自身设定的事来配合隐喻 | 读者感觉人物「不真实」，故事崩塌 | 先构思角色的合理动机，再寻找与概念的巧合相似，而非反过来 |
-| **隐喻过度** | 每个细节都对应概念，故事像密码本 | 变成说明书而非故事，失去趣味 | 只映射核心要素，其余细节为故事的生动性服务 |
-| **揭晓过早** | 开头或故事中段就说「这就像 XXX 概念」 | 毁了悬念，读者不再去「悟」 | 忍住——让故事自己说完，揭晓部分放在最后 |
-| **故事空洞** | 故事本身没有冲突、没有张力 | 读者记不住——没有情感就没有记忆 | 确保有明确的困境、选择或转折，让读者关心角色 |
-| **概念曲解** | 为让故事好看，歪曲了概念的核心含义 | 最致命的错误——读者学到了错误的理解 | 写完故事后自检：如果读者只读故事不读释义，形成的理解是否正确？ |
-| **隐喻比概念更抽象** | 用魔法符文解释抽象泄漏、用修仙体系解释设计模式 | 读者需要先解码隐喻本身，理解门槛不降反升 | 用「奶奶测试」：隐喻载体换成日常场景（万能遥控器、翻译器出错），确保载体本身不需要解释 |
-
-## 降级策略
-
-如果某个概念确实不适合寓言形式（如过于抽象、无实体可类比），不要强行编造：
-
-1. 先尝试找到概念中**最具体的那个侧面**来写故事
-2. 如果实在没有好的故事角度，改用「场景类比」（短比喻而非完整故事）。例如：
-
-   > 解释「递归」→「就像你站在两面镜子之间，看到的是一层套一层的无限影像——每一层都和前一层一样，只是更小。但总有一个"最小"的你站在最深处，当光线到达那里时，反射开始一层层往回走。这就是递归。」
-
-3. 如果概念太宽泛（如「面向对象编程」），建议用户缩小范围（如「封装」「多态」）
-4. **如果找不到用户熟悉的合适场景**，诚实告知而非硬编。例如：「这个概念我暂时没想到你熟悉的场景来类比，换一个更日常的场景来讲可以吗？」——用户宁可接受一个不太贴合的常规故事，也不想听一个别扭的强行类比
+1. **"The metaphor isn't quite right"** → Return to Step 1. Reconfirm whether the concept's core tension was understood correctly, then adjust the metaphor mapping.
+2. **"This story doesn't work / try another"** → Return to Step 3. Switch to a different story type and tone, then rewrite.
+3. **"Too subtle / too obvious"** → Adjust the reveal timing in the three-act structure, or increase/decrease the amount of setup.
+4. **"Story too long / too short"** → Adjust the level of detail in the setup section without changing the core structure.
 
 ---
 
-## 质量准则
+## Pre-Judgment (Triggers Before Writing)
 
-每条对应 Step 6 自检的具体检查项：
+### Handling Multi-Concept Requests
 
-| 准则 | 检验方式 |
-|------|---------|
-| **故事先于概念** | 自检第 3 条：故事是否本身可读？ |
-| **含蓄但不隐晦** | 自检第 2 条：核心矛盾是否被精准映射？因果链是否贴合运作机制？ |
-| **准确但不死板** | 自检第 1 条：角色行为是否自然？ |
-| **尊重读者智力** | 自检第 4 条：揭晓时机是否恰当？隐喻是否 ≤5 个？ |
-| **一场故事一个概念** | 自检第 5 条：有没有多余的隐喻或情节？ |
-| **隐喻不增门槛** | 自检第 6 条：隐喻载体是否通过了「奶奶测试」？ |
-| **解释不引新惑** | 自检第 7 条：新术语是否都有简要说明？ |
+The following logic fires before writing begins, to decide the story strategy:
 
+- **Concepts have a contrast/comparison relationship** → You can use one story to thread both concepts (e.g., two characters each embodying concept A and B, with different outcomes showing the contrast), but still reveal them separately at the end.
+- **Concepts are unrelated** → Suggest two separate stories, 150–350 words each.
+- **Unsure** → Ask the user first: "Should I use one story to contrast these two concepts, or tell two separate stories?"
+
+---
+
+## Anti-Patterns: Avoid These
+
+These are common failure modes. Actively avoid them while writing:
+
+| Anti-Pattern | What It Looks Like | Why It Fails | The Fix |
+|-------------|-------------------|-------------|---------|
+| **Puppet characters** | Characters do things against their own nature to serve the metaphor | The reader feels the characters are "unreal," and the story collapses | First conceive the character's plausible motivation, then find the coincidental resemblance to the concept — not the reverse |
+| **Over-metaphoring** | Every detail maps to the concept; the story reads like a cipher | Becomes a textbook in disguise, loses all charm | Only map the core elements; let the remaining details serve the story's vividness |
+| **Premature reveal** | "This is like concept X" said at the beginning or mid-story | Kills the suspense; the reader stops "realizing" on their own | Hold back — let the story finish itself. The reveal belongs only at the end. |
+| **Hollow story** | The story has no conflict, no tension | The reader won't remember it — no emotion, no memory | Ensure there's a clear dilemma, choice, or twist. Make the reader care about the characters. |
+| **Concept distortion** | Twisting the concept's core meaning to make a better story | The most fatal error — the reader learns a *wrong* understanding | After writing, self-check: if a reader only read the story and not the explanation, would their understanding be correct? |
+| **Metaphor more abstract than concept** | Using magic runes to explain leaky abstractions, or fantasy cultivation systems to explain design patterns | The reader has to decode the metaphor itself first — the barrier isn't lowered, it's raised | Use the Grandma Test: swap the vehicle for everyday scenes (a universal remote, a translation app glitch) — ensure the vehicle itself requires no explanation |
+
+## Fallback Strategies
+
+If a concept genuinely doesn't suit the fable format (too abstract, no tangible analogue), don't force it:
+
+1. First, try to find the **most concrete facet** of the concept and write a story around that.
+2. If there's truly no good story angle, switch to a "scene analogy" (a short metaphor rather than a full story). For example:
+
+   > To explain "recursion": "Imagine you're standing between two mirrors. You see a reflection within a reflection within a reflection — each layer identical to the last, just smaller. But there's always a 'smallest you' at the deepest point. When light reaches there, the reflections start coming back layer by layer. That's recursion."
+
+3. If the concept is too broad (e.g., "object-oriented programming"), suggest the user narrow it down (e.g., "encapsulation," "polymorphism").
+4. **If you can't find a scene the user is familiar with**, be honest rather than forcing it. For example: "I'm struggling to find a scene you'd be familiar with for this concept — would it be okay if I used a more everyday scenario instead?" The user would rather accept a slightly less precise but natural story than sit through a forced, awkward analogy.
+
+---
+
+## Quality Criteria
+
+Each maps to a specific check in Step 6:
+
+| Criterion | How to Verify |
+|-----------|--------------|
+| **Story before concept** | Self-check #3: Is the story readable on its own? |
+| **Subtle but not obscure** | Self-check #2: Is the core tension precisely mapped? Does the causal chain align with the operating mechanism? |
+| **Accurate but not rigid** | Self-check #1: Do the characters behave naturally? |
+| **Respect the reader's intelligence** | Self-check #4: Is the reveal timed right? Are metaphor points ≤5? |
+| **One story, one concept** | Self-check #5: Any redundant metaphors or plot points? |
+| **Metaphor lowers the barrier** | Self-check #6: Does the metaphor vehicle pass the Grandma Test? |
+| **Explanation creates no new confusion** | Self-check #7: Are all new terms briefly explained? |
