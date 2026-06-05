@@ -45,14 +45,7 @@ Askell herself uses this daily: *"When I'm bored, I ask Claude to tell me fables
 
 ## What This Skill Does
 
-Askell's original idea is a brilliant starting point, but in practice, raw prompts hit several walls:
-
-- AI falls into formulaic narratives (traveler seeks wisdom, village epiphany, wise-mentor dialogues)
-- The same tired imagery keeps appearing (rivers, clocks, mirrors, mountains, stars — over and over)
-- Characters become puppets of the metaphor, sacrificing natural behavior for conceptual mapping
-- Metaphors sometimes end up more abstract than the concept itself (explaining design patterns through elaborate fantasy world-building)
-
-**Concept Fable** systematizes Askell's core idea into an **8-step workflow** with extensive anti-pattern detection and quality guardrails:
+Askell's original idea is a brilliant starting point. **Concept Fable** builds on it, systematizing the approach into an **8-step workflow** with anti-pattern detection and quality guardrails:
 
 | Askell's Original Idea | This Skill's Systematic Expansion |
 |:---|:---|
