@@ -115,14 +115,15 @@ Restart Claude Code and the skill activates automatically. Try saying:
 **Input:** "Explain what deadlock is with a story"
 
 **Claude will:**
-1. Confirm conceptual understanding (the four necessary conditions of deadlock, the core dilemma)
-2. Select a story type (two-party standoff → ancient fable style)
-3. Craft a fable that never mentions "deadlock"
-4. Reveal the concept only at the story's natural conclusion
-5. Append a professional explanation with a story-to-concept mapping table
-6. Run the 7-point self-check, then output
+1. Confirm understanding, map out the causal chain: Thread A holds Lock1 waiting for Lock2 → Thread B holds Lock2 waiting for Lock1 → circular wait → permanent standstill
+2. Select story type & tone (two-party standoff → ancient fable, cautionary tone)
+3. Validate metaphor mapping: does every causal chain link have a story beat? (hold-and-wait ✓, circular wait ✓, neither releases ✓)
+4. Craft a fable that never mentions "deadlock"
+5. Reveal the concept only at the story's natural conclusion
+6. Append a professional explanation with a story-to-concept mapping table
+7. Run the 7-point self-check, then output
 
-The story might be: two wagons confronting each other on a narrow bridge, neither willing to yield, both stuck until nightfall — while there was clearly enough room for one to pass first.
+The story might be: a sister clutches the salt jar, her brother grips the sugar jar. Her dish needs just a pinch of sugar to finish; his soup lacks only a spoonful of salt. Each holds what the other needs — yet neither will let go. The food goes cold. The soup goes cold.
 
 ---
 
